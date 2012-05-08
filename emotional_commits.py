@@ -17,7 +17,7 @@ def proc_csv(fname, count_key):
 # this file must be processed 1st so ratio are calculated correctly
 proc_csv('commit_messages_langcount.csv', 'total_count')
 
-csvfiles = glob.glob('emotional_commits/count_*.csv')
+csvfiles = glob.glob('emotional_commits/counts_*.csv')
 
 for csvfile in csvfiles:
     name, ext = os.path.splitext(os.path.basename(csvfile))
@@ -34,10 +34,6 @@ for csvfile in csvfiles:
         tc = float(langdata[lang]['total_count'])
         if name not in langdata[lang] or tc < 10000:
             continue
-
-        # TODO consider using matplotlib, see
-        # http://matplotlib.sourceforge.net/examples/pylab_examples/barchart_demo2.html
-        # http://matplotlib.sourceforge.net/examples/pylab_examples/barh_demo.html
         rc = float(langdata[lang][name])
         writer.writerow([lang, (rc/tc)*100])
 
