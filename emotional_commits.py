@@ -30,9 +30,9 @@ for csvfile in csvfiles:
     writer.writerow(['language', 'percentage'])
 
     for lang in langdata:
-        # only consider languages with at least 10000 messages
+        # only consider languages with at least 40000 messages
         tc = float(langdata[lang]['total_count'])
-        if name not in langdata[lang] or tc < 10000:
+        if name not in langdata[lang] or tc < 40000:
             continue
         rc = float(langdata[lang][name])
         writer.writerow([lang, (rc/tc)*100])
