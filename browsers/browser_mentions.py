@@ -35,4 +35,5 @@ for b in texts:
     fdist = FreqDist(w for w in texts[b]).items()
     freqdists[b] = [(w, c) for w, c in fdist if c >= 10]
 
-print freqdists['chrome']
+#print freqdists['chrome']
+print freqdists['ie']
