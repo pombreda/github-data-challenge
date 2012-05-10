@@ -17,14 +17,14 @@ def proc_csv(fname, count_key):
 # this file must be processed 1st so ratio are calculated correctly
 proc_csv('commit_messages_langcount.csv', 'total_count')
 
-csvfiles = glob.glob('emotional_commits/counts_*.csv')
+csvfiles = glob.glob('counts_*.csv')
 
 for csvfile in csvfiles:
     name, ext = os.path.splitext(os.path.basename(csvfile))
     proc_csv(csvfile, name)
 
     # create merged csv for further processing
-    target = 'emotional_commits/merged_%s%s' % (name, ext)
+    target = 'merged_%s%s' % (name, ext)
     ftarget = open(target, 'wb')
     writer = csv.writer(ftarget, quoting=csv.QUOTE_MINIMAL)
     writer.writerow(['language', 'percentage'])
