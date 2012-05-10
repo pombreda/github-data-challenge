@@ -1,0 +1,3 @@
+SELECT payload_commit_msg, repository_language FROM [githubarchive:github.timeline] 
+WHERE repository_language != '' AND payload_commit_msg != ''
+AND (REGEXP_MATCH(payload_commit_msg, r'\b(chrome|firefox|safari|opera|ie\s*\d*|internet\s*explorer)\b'));
