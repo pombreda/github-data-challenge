@@ -32,7 +32,8 @@ for record in reader:
     for b in browsers:
         if re.search(browsers[b], text):
             # replace occurences of browser itself
-            texts[b] += [w for w in words if not re.search(browsers[b], w)]
+#            texts[b] += [w for w in words if not re.search(browsers[b], w)]
+            texts[b] += words
 fcsv.close()
 
 for b in texts:
