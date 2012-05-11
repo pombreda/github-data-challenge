@@ -21,6 +21,16 @@ browsers = {
     'safari': re.compile(r'\bsafari\b', re.I),
 }
 
+def check_word(word):
+    if (len(word) > 1 and 
+    re.match(re_word, word) and
+    w not in stopwords and 
+    ('-' not in word or word.count('-') < 2) and # too many hyphens
+    ('_' not in word) # no underscores
+    ):
+        return True
+    return False
+
 #fcsv = open('browser_mentions.ext.csv', 'rb')
 fcsv = open('browser_mentions.csv', 'rb')
 reader = csv.reader(fcsv)
@@ -28,7 +38,7 @@ headers = reader.next()
 for record in reader:
     text = record[0]
     tokens = word_tokenize(re.sub(re_uri, '', text.lower()))
-    words = [w for w in tokens if len(w) > 1 and re.match(re_word, w) and w not in stopwords]
+    words = [w for w in tokens if check_word(w)]
     for b in browsers:
         if re.search(browsers[b], text):
             # replace occurences of browser itself
@@ -38,8 +48,6 @@ fcsv.close()
 
 for b in texts:
     fdist = FreqDist(w for w in texts[b]).items()
-    freqdists[b] = [(w, c) for w, c in fdist if c >= 10]
+    freqdists[b] = [(w, c) for w, c in fdist if c >= 2][:500]
 
-#print freqdists['chrome']
-#print freqdists['ie']
-print json.dumps(freqdists['ie'][:200])
+print 'var browsers = %s;' % json.dumps(freqdists)
