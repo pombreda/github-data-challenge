@@ -1,0 +1,7 @@
+SELECT repository_language, actor_attributes_location, COUNT(actor_attributes_location) AS loccnt FROM [githubarchive:github.timeline]
+WHERE type="PushEvent"
+AND repository_language != ""
+AND REGEXP_MATCH(actor_attributes_location,r'^[\s\w]+,[\s]*[\s\w]+$')
+GROUP BY repository_language, actor_attributes_location
+ORDER BY loccnt DESC
+#LIMIT 100

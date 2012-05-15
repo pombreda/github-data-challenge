@@ -1,0 +1,362 @@
+[
+  {
+    "repository_language": "JavaScript",
+    "pushes": 582166
+  },
+  {
+    "repository_language": "Java",
+    "pushes": 435675
+  },
+  {
+    "repository_language": "Ruby",
+    "pushes": 410379
+  },
+  {
+    "repository_language": "Python",
+    "pushes": 330903
+  },
+  {
+    "repository_language": "PHP",
+    "pushes": 311579
+  },
+  {
+    "repository_language": "C",
+    "pushes": 208140
+  },
+  {
+    "repository_language": "C++",
+    "pushes": 205846
+  },
+  {
+    "repository_language": "Shell",
+    "pushes": 95645
+  },
+  {
+    "repository_language": "C#",
+    "pushes": 76077
+  },
+  {
+    "repository_language": "Objective-C",
+    "pushes": 57327
+  },
+  {
+    "repository_language": "VimL",
+    "pushes": 52766
+  },
+  {
+    "repository_language": "Perl",
+    "pushes": 47174
+  },
+  {
+    "repository_language": "Scala",
+    "pushes": 26579
+  },
+  {
+    "repository_language": "CoffeeScript",
+    "pushes": 21116
+  },
+  {
+    "repository_language": "Emacs Lisp",
+    "pushes": 20692
+  },
+  {
+    "repository_language": "Haskell",
+    "pushes": 20309
+  },
+  {
+    "repository_language": "Clojure",
+    "pushes": 15058
+  },
+  {
+    "repository_language": "Lua",
+    "pushes": 13807
+  },
+  {
+    "repository_language": "ActionScript",
+    "pushes": 10852
+  },
+  {
+    "repository_language": "Erlang",
+    "pushes": 10649
+  },
+  {
+    "repository_language": "Go",
+    "pushes": 10130
+  },
+  {
+    "repository_language": "Groovy",
+    "pushes": 9593
+  },
+  {
+    "repository_language": "Matlab",
+    "pushes": 9480
+  },
+  {
+    "repository_language": "R",
+    "pushes": 8501
+  },
+  {
+    "repository_language": "Puppet",
+    "pushes": 6660
+  },
+  {
+    "repository_language": "OCaml",
+    "pushes": 5385
+  },
+  {
+    "repository_language": "D",
+    "pushes": 4725
+  },
+  {
+    "repository_language": "Common Lisp",
+    "pushes": 3971
+  },
+  {
+    "repository_language": "Delphi",
+    "pushes": 3278
+  },
+  {
+    "repository_language": "Assembly",
+    "pushes": 3227
+  },
+  {
+    "repository_language": "Scheme",
+    "pushes": 2931
+  },
+  {
+    "repository_language": "Arduino",
+    "pushes": 2339
+  },
+  {
+    "repository_language": "Rust",
+    "pushes": 2055
+  },
+  {
+    "repository_language": "Racket",
+    "pushes": 1968
+  },
+  {
+    "repository_language": "Prolog",
+    "pushes": 1941
+  },
+  {
+    "repository_language": "HaXe",
+    "pushes": 1925
+  },
+  {
+    "repository_language": "VHDL",
+    "pushes": 1898
+  },
+  {
+    "repository_language": "FORTRAN",
+    "pushes": 1846
+  },
+  {
+    "repository_language": "ColdFusion",
+    "pushes": 1722
+  },
+  {
+    "repository_language": "Verilog",
+    "pushes": 1697
+  },
+  {
+    "repository_language": "Visual Basic",
+    "pushes": 1505
+  },
+  {
+    "repository_language": "Tcl",
+    "pushes": 1491
+  },
+  {
+    "repository_language": "F#",
+    "pushes": 1206
+  },
+  {
+    "repository_language": "ASP",
+    "pushes": 1152
+  },
+  {
+    "repository_language": "Dart",
+    "pushes": 1149
+  },
+  {
+    "repository_language": "Standard ML",
+    "pushes": 855
+  },
+  {
+    "repository_language": "Objective-J",
+    "pushes": 801
+  },
+  {
+    "repository_language": "Smalltalk",
+    "pushes": 779
+  },
+  {
+    "repository_language": "PowerShell",
+    "pushes": 752
+  },
+  {
+    "repository_language": "Vala",
+    "pushes": 738
+  },
+  {
+    "repository_language": "DCPU-16 ASM",
+    "pushes": 624
+  },
+  {
+    "repository_language": "Elixir",
+    "pushes": 606
+  },
+  {
+    "repository_language": "Eiffel",
+    "pushes": 535
+  },
+  {
+    "repository_language": "Scilab",
+    "pushes": 527
+  },
+  {
+    "repository_language": "Julia",
+    "pushes": 522
+  },
+  {
+    "repository_language": "AutoHotkey",
+    "pushes": 505
+  },
+  {
+    "repository_language": "Ada",
+    "pushes": 503
+  },
+  {
+    "repository_language": "Powershell",
+    "pushes": 475
+  },
+  {
+    "repository_language": "SuperCollider",
+    "pushes": 466
+  },
+  {
+    "repository_language": "Coq",
+    "pushes": 448
+  },
+  {
+    "repository_language": "OpenEdge ABL",
+    "pushes": 360
+  },
+  {
+    "repository_language": "Apex",
+    "pushes": 334
+  },
+  {
+    "repository_language": "Pure Data",
+    "pushes": 274
+  },
+  {
+    "repository_language": "Nemerle",
+    "pushes": 231
+  },
+  {
+    "repository_language": "XQuery",
+    "pushes": 229
+  },
+  {
+    "repository_language": "Parrot",
+    "pushes": 223
+  },
+  {
+    "repository_language": "Factor",
+    "pushes": 208
+  },
+  {
+    "repository_language": "ooc",
+    "pushes": 188
+  },
+  {
+    "repository_language": "Io",
+    "pushes": 180
+  },
+  {
+    "repository_language": "Kotlin",
+    "pushes": 138
+  },
+  {
+    "repository_language": "Dylan",
+    "pushes": 118
+  },
+  {
+    "repository_language": "Nimrod",
+    "pushes": 109
+  },
+  {
+    "repository_language": "Opa",
+    "pushes": 104
+  },
+  {
+    "repository_language": "Turing",
+    "pushes": 98
+  },
+  {
+    "repository_language": "Boo",
+    "pushes": 93
+  },
+  {
+    "repository_language": "Modelica",
+    "pushes": 93
+  },
+  {
+    "repository_language": "Ioke",
+    "pushes": 83
+  },
+  {
+    "repository_language": "Fancy",
+    "pushes": 78
+  },
+  {
+    "repository_language": "Gosu",
+    "pushes": 75
+  },
+  {
+    "repository_language": "Arc",
+    "pushes": 70
+  },
+  {
+    "repository_language": "Max/MSP",
+    "pushes": 68
+  },
+  {
+    "repository_language": "Rebol",
+    "pushes": 47
+  },
+  {
+    "repository_language": "Logtalk",
+    "pushes": 30
+  },
+  {
+    "repository_language": "Bro",
+    "pushes": 28
+  },
+  {
+    "repository_language": "Mirah",
+    "pushes": 23
+  },
+  {
+    "repository_language": "Self",
+    "pushes": 14
+  },
+  {
+    "repository_language": "Fantom",
+    "pushes": 11
+  },
+  {
+    "repository_language": "Augeas",
+    "pushes": 10
+  },
+  {
+    "repository_language": "DCPU-16 Assembly",
+    "pushes": 2
+  },
+  {
+    "repository_language": "Nu",
+    "pushes": 1
+  }
+]
